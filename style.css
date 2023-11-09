@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 
-.container {
+.container-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 15px 10%;
@@ -61,19 +61,19 @@ p {
 
 
 @media all and (max-width:420px) {
-    .container {
+    .container-1 {
         grid-template-columns: repeat(1, 1fr);
         padding: 0px 40px;
 
     }
 
-    .heroes {
+    .heroes-1 {
         display: flex;
         flex-direction: column;
         margin: 10px;
     }
 
-    .villains {
+    .villains-1 {
         display: flex;
         flex-direction: column;
         margin: 10px;
